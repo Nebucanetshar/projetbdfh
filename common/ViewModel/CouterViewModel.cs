@@ -1,6 +1,11 @@
-﻿namespace common;
+﻿namespace common.ViewModel;
 
-public class CouterViewModel
+public class CounterViewModel
 {
+    public readonly string Arg;
+    public CounterViewModel(string arg)
+    {
+        Arg = arg;
+    }
 
 }
