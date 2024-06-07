@@ -1,7 +1,7 @@
-﻿using bwasm.Fluxor;
-using Fluxor;
+﻿using Fluxor;
 
-namespace bwasm.Fluxor;
+namespace bwasm.Fluxor
+    ;
 
 public static class CounterReduceur
 {

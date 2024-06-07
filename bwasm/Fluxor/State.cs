@@ -1,7 +1,7 @@
 ﻿using common.ViewModel;
 using Fluxor;
 
-namespace assembly.Fluxor;
+namespace bwasm.Fluxor;
 
 [FeatureState]
 public record class CounterState

@@ -1,10 +1,8 @@
-﻿using bwasm.Fluxor;
-using common.Wrapper.Model;
-
+﻿using common.Wrapper.Model;
 using Fluxor;
 
 
-namespace bwasm.fluxor;
+namespace bwasm.Fluxor;
 
 public class CounterEffet
 {
