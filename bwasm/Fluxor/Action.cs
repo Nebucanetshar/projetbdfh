@@ -20,10 +20,12 @@ public class ActionOutput
 public class ActionInput
 {
     public string Counter { get; set; }
+    
 
     public ActionInput(string counter)
     {
         Counter = counter;
+       
     }
 }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj": {}
+    "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj": {
+    "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj",
         "projectName": "bwasm",
-        "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj",
+        "projectPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\bwasm\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\bwasm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj"
+              "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\common\\common.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\common\\common.csproj"
               }
             }
           }
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
@@ -102,14 +106,14 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj": {
+    "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\common\\common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\common\\common.csproj",
         "projectName": "common",
-        "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj",
+        "projectPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\common\\common.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -127,8 +131,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj"
+              "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj"
               }
             }
           }
@@ -168,14 +172,14 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj": {
+    "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
         "projectName": "grpc",
-        "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
+        "projectPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\grpc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

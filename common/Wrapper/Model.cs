@@ -2,6 +2,7 @@
 using grpc;
 using common.ViewModel;
 
+
 namespace common.Wrapper.Model;
 public interface IgRpcCounterServiceClient
 {

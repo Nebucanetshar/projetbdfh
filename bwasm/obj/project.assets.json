@@ -506,7 +506,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -2647,7 +2647,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -5118,10 +5118,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
-      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+      "sha512": "fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5145,7 +5145,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -9524,6 +9524,7 @@
       "Fluxor >= 6.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.1",
       "Microsoft.NET.ILLink.Tasks >= 8.0.0",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.0",
       "common >= 1.0.0"
@@ -9535,11 +9536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj",
       "projectName": "bwasm",
-      "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj",
+      "projectPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\bwasm\\bwasm.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\bwasm\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\bwasm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9557,8 +9558,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj"
+            "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\common\\common.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\common\\common.csproj"
             }
           }
         }
@@ -9585,6 +9586,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.1, )"
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
