@@ -1,0 +1,2 @@
+obj\Debug\net8.0\browser\Protos/Greet.cs \
+obj\Debug\net8.0\browser\Protos/GreetGrpc.cs: Protos/greet.proto

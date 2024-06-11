@@ -1,0 +1,2 @@
+obj\Debug\net8.0\browser\Protos/Bdfh.cs \
+obj\Debug\net8.0\browser\Protos/BdfhGrpc.cs: Protos/bdfh.proto

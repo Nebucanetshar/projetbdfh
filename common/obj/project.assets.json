@@ -68,7 +68,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Grpc.Core.Api/2.57.0": {
+      "Grpc.Core.Api/2.63.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Grpc.Core.Api.dll": {
@@ -115,10 +115,10 @@
           }
         }
       },
-      "Grpc.Net.Common/2.57.0": {
+      "Grpc.Net.Common/2.63.0": {
         "type": "package",
         "dependencies": {
-          "Grpc.Core.Api": "2.57.0"
+          "Grpc.Core.Api": "2.63.0"
         },
         "compile": {
           "lib/net8.0/Grpc.Net.Common.dll": {
@@ -1840,22 +1840,19 @@
         "packageIcon.png"
       ]
     },
-    "Grpc.Core.Api/2.57.0": {
-      "sha512": "48jpfMyYdhaPS6PGnk7sEqSO3+c/w11ahY+a33ymo0BsQEsBVIoJoS5xMsl5RzBlpKY41PnN+qJGMm3VyE5OQg==",
+    "Grpc.Core.Api/2.63.0": {
+      "sha512": "t3+/MF8AxIqKq5UmPB9EWAnM9C/+lXOB8TRFfeVMDntf6dekfJmjpKDebaT4t2bbuwVwwvthxxox9BuGr59kYA==",
       "type": "package",
-      "path": "grpc.core.api/2.57.0",
+      "path": "grpc.core.api/2.63.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "grpc.core.api.2.57.0.nupkg.sha512",
+        "grpc.core.api.2.63.0.nupkg.sha512",
         "grpc.core.api.nuspec",
         "lib/net462/Grpc.Core.Api.dll",
         "lib/net462/Grpc.Core.Api.pdb",
         "lib/net462/Grpc.Core.Api.xml",
-        "lib/netstandard1.5/Grpc.Core.Api.dll",
-        "lib/netstandard1.5/Grpc.Core.Api.pdb",
-        "lib/netstandard1.5/Grpc.Core.Api.xml",
         "lib/netstandard2.0/Grpc.Core.Api.dll",
         "lib/netstandard2.0/Grpc.Core.Api.pdb",
         "lib/netstandard2.0/Grpc.Core.Api.xml",
@@ -1924,14 +1921,14 @@
         "packageIcon.png"
       ]
     },
-    "Grpc.Net.Common/2.57.0": {
-      "sha512": "babJpsAwVH3lPjg8cvWGqW+Fos1RN+cqudfkW2EyB2DK2v5yjD2axZ1Uay6kR6ec2/p9ljodktrfoJ2lJ/pwnQ==",
+    "Grpc.Net.Common/2.63.0": {
+      "sha512": "RLt6p31ZMsXRcHNeu1dQuIFLYZvnwP6LUzoDPlV3KoR4w9btmwrXIvz9Jbp1SOmxW7nXw9zShAeIt5LsqFAx5w==",
       "type": "package",
-      "path": "grpc.net.common/2.57.0",
+      "path": "grpc.net.common/2.63.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "grpc.net.common.2.57.0.nupkg.sha512",
+        "grpc.net.common.2.63.0.nupkg.sha512",
         "grpc.net.common.nuspec",
         "lib/net6.0/Grpc.Net.Common.dll",
         "lib/net6.0/Grpc.Net.Common.pdb",
@@ -5710,6 +5707,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Grpc.Net.Common >= 2.63.0",
       "grpc >= 1.0.0"
     ]
   },
@@ -5719,11 +5717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\common\\common.csproj",
       "projectName": "common",
-      "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj",
+      "projectPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\common\\common.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5741,8 +5739,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj": {
-              "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj"
+            "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj": {
+              "projectPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj"
             }
           }
         }
@@ -5756,6 +5754,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "Grpc.Net.Common": {
+            "target": "Package",
+            "version": "[2.63.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

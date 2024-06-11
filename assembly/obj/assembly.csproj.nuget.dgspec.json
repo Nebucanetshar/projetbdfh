@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\assembly\\assembly.csproj": {}
+    "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\assembly\\assembly.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\assembly\\assembly.csproj": {
+    "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\assembly\\assembly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\assembly\\assembly.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\assembly\\assembly.csproj",
         "projectName": "assembly",
-        "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\assembly\\assembly.csproj",
+        "projectPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\assembly\\assembly.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\assembly\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\assembly\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj"
+              "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\common\\common.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\common\\common.csproj"
               }
             }
           }
@@ -48,6 +48,10 @@
             "Fluxor": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.63.0, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -69,6 +73,10 @@
               "target": "Package",
               "version": "[8.0.0, )",
               "autoReferenced": true
+            },
+            "Wasmtime": {
+              "target": "Package",
+              "version": "[19.0.1, )"
             }
           },
           "imports": [
@@ -82,12 +90,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.0, 8.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -97,19 +99,19 @@
         }
       },
       "runtimes": {
-        "browser-wasm": {
+        "browser": {
           "#import": []
         }
       }
     },
-    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj": {
+    "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\common\\common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\common\\common.csproj",
         "projectName": "common",
-        "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\common.csproj",
+        "projectPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\common\\common.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\common\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -127,8 +129,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj": {
-                "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj"
+              "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj": {
+                "projectPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj"
               }
             }
           }
@@ -142,6 +144,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Grpc.Net.Common": {
+              "target": "Package",
+              "version": "[2.63.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -162,14 +170,14 @@
         }
       }
     },
-    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj": {
+    "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj",
         "projectName": "grpc",
-        "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
+        "projectPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
