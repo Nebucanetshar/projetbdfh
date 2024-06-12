@@ -6,7 +6,21 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddGrpc();
 
+builder.Services.AddCors(o => o.AddPolicy("AllowAll", builder =>
+{
+    builder.AllowAnyOrigin()
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .WithExposedHeaders("Grpc-Status", "Grpc-Message", "Grpc-encoding", "Grpc-Accept-Encoding");
+
+}));
+
 var app = builder.Build();
+
+app.UseGrpcWeb();
+app.MapGrpcService<Server>().EnableGrpcWeb().RequireCors("AllowAll");
+app.UseCors();
+
 builder.Services.AddDbContext<AppDbContext>(options => builder.Configuration.GetConnectionString("pgsql"));
 
 app.MapGrpcService<GreeterService>();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj": {}
+    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj": {
+    "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
         "projectName": "grpc",
-        "projectPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\grpc.csproj",
+        "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\visualStudio\\C#\\projetbdfh\\grpc\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,10 @@
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.57.0, )"
+            },
+            "Grpc.AspNetCore.Web": {
+              "target": "Package",
+              "version": "[2.63.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSql": {
               "target": "Package",

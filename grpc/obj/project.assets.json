@@ -68,6 +68,22 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Grpc.AspNetCore.Web/2.63.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Grpc.AspNetCore.Web.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Grpc.AspNetCore.Web.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Grpc.Core.Api/2.57.0": {
         "type": "package",
         "compile": {
@@ -2430,6 +2446,28 @@
         "lib/net8.0/Grpc.AspNetCore.Server.ClientFactory.dll",
         "lib/net8.0/Grpc.AspNetCore.Server.ClientFactory.pdb",
         "lib/net8.0/Grpc.AspNetCore.Server.ClientFactory.xml",
+        "packageIcon.png"
+      ]
+    },
+    "Grpc.AspNetCore.Web/2.63.0": {
+      "sha512": "nrEVAcgFF+c2B9TSe6X34BadwvdsmJKy0k17hqWN57+xkf1PoXPgeFLcUKqFBtjpjqCOZh0XZn/nsmFr5WZ7Nw==",
+      "type": "package",
+      "path": "grpc.aspnetcore.web/2.63.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "grpc.aspnetcore.web.2.63.0.nupkg.sha512",
+        "grpc.aspnetcore.web.nuspec",
+        "lib/net6.0/Grpc.AspNetCore.Web.dll",
+        "lib/net6.0/Grpc.AspNetCore.Web.pdb",
+        "lib/net6.0/Grpc.AspNetCore.Web.xml",
+        "lib/net7.0/Grpc.AspNetCore.Web.dll",
+        "lib/net7.0/Grpc.AspNetCore.Web.pdb",
+        "lib/net7.0/Grpc.AspNetCore.Web.xml",
+        "lib/net8.0/Grpc.AspNetCore.Web.dll",
+        "lib/net8.0/Grpc.AspNetCore.Web.pdb",
+        "lib/net8.0/Grpc.AspNetCore.Web.xml",
         "packageIcon.png"
       ]
     },
@@ -7326,6 +7364,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Grpc.AspNetCore >= 2.57.0",
+      "Grpc.AspNetCore.Web >= 2.63.0",
       "Npgsql.EntityFrameworkCore.PostgreSql >= 8.0.4",
       "Npgsql.EntityFrameworkCore.PostgreSql.Design >= 1.1.0",
       "grpc.tools >= 2.64.0",
@@ -7341,11 +7380,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
       "projectName": "grpc",
-      "projectPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
+      "projectPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\grpc\\grpc.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\source\\VisualStudio\\c#\\projetbdfh\\grpc\\obj\\",
+      "outputPath": "C:\\Users\\user\\source\\visualStudio\\c#\\projetbdfh\\grpc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7378,6 +7417,10 @@
           "Grpc.AspNetCore": {
             "target": "Package",
             "version": "[2.57.0, )"
+          },
+          "Grpc.AspNetCore.Web": {
+            "target": "Package",
+            "version": "[2.63.0, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSql": {
             "target": "Package",
