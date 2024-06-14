@@ -19,9 +19,9 @@ public class ActionOutput
 
 public class ActionInput
 {
-    public string Counter { get; set; }
+    public int Counter { get; set; }
 
-    public ActionInput(string counter)
+    public ActionInput(int counter)
     {
         Counter = counter;
     }
