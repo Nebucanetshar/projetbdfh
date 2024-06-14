@@ -9,6 +9,7 @@
       "grpc/1.0.0": {
         "dependencies": {
           "Grpc.AspNetCore": "2.57.0",
+          "Grpc.AspNetCore.Web": "2.63.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.1.0",
           "Grpc.Tools": "2.64.0",
@@ -56,6 +57,14 @@
           "lib/net8.0/Grpc.AspNetCore.Server.ClientFactory.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.57.0.0"
+          }
+        }
+      },
+      "Grpc.AspNetCore.Web/2.63.0": {
+        "runtime": {
+          "lib/net8.0/Grpc.AspNetCore.Web.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.63.0.0"
           }
         }
       },
@@ -1317,6 +1326,13 @@
       "sha512": "sha512-Ucl50YKMMRaP/ikx20v6tDGdNaRzeiujmw8kmAFy3/4f8+d1mDY8wn3vcXpIflX4IE+WvZQOTHz5r/3/GutbQw==",
       "path": "grpc.aspnetcore.server.clientfactory/2.57.0",
       "hashPath": "grpc.aspnetcore.server.clientfactory.2.57.0.nupkg.sha512"
+    },
+    "Grpc.AspNetCore.Web/2.63.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nrEVAcgFF+c2B9TSe6X34BadwvdsmJKy0k17hqWN57+xkf1PoXPgeFLcUKqFBtjpjqCOZh0XZn/nsmFr5WZ7Nw==",
+      "path": "grpc.aspnetcore.web/2.63.0",
+      "hashPath": "grpc.aspnetcore.web.2.63.0.nupkg.sha512"
     },
     "Grpc.Core.Api/2.57.0": {
       "type": "package",

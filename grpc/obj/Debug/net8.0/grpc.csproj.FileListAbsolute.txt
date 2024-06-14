@@ -107,3 +107,4 @@ C:\Users\user\source\visualStudio\c#\projetbdfh\grpc\obj\Debug\net8.0\refint\grp
 C:\Users\user\source\visualStudio\c#\projetbdfh\grpc\obj\Debug\net8.0\grpc.pdb
 C:\Users\user\source\visualStudio\c#\projetbdfh\grpc\obj\Debug\net8.0\grpc.genruntimeconfig.cache
 C:\Users\user\source\visualStudio\c#\projetbdfh\grpc\obj\Debug\net8.0\ref\grpc.dll
+C:\Users\user\source\visualStudio\c#\projetbdfh\grpc\bin\Debug\net8.0\Grpc.AspNetCore.Web.dll

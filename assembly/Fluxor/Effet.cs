@@ -1,4 +1,4 @@
-﻿using common.Wrapper.Model;
+﻿using common.Wrapper.Interface;
 using assembly.Fluxor;
 using Fluxor;
 
