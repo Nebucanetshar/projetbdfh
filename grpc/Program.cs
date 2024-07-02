@@ -1,29 +1,24 @@
-using grpc.Data;
 using grpc.Services;
+using grpc.Data;
+using Microsoft.EntityFrameworkCore;
 
-var builder = WebApplication.CreateBuilder(args);
-
-
-builder.Services.AddGrpc();
-
-builder.Services.AddCors(o => o.AddPolicy("AllowAll", builder =>
+internal class Program
 {
-    builder.AllowAnyOrigin()
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    .WithExposedHeaders("Grpc-Status", "Grpc-Message", "Grpc-encoding", "Grpc-Accept-Encoding");
+    private static void Main(string[] args)
+    {
+        var builder = WebApplication.CreateBuilder(args);
 
-}));
 
-var app = builder.Build();
+        builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("pgsl")));
 
-app.UseGrpcWeb();
-app.MapGrpcService<Server>().EnableGrpcWeb().RequireCors("AllowAll");
-app.UseCors();
+        builder.Services.AddGrpc();
 
-builder.Services.AddDbContext<AppDbContext>(options => builder.Configuration.GetConnectionString("pgsql"));
+        var app = builder.Build();
 
-app.MapGrpcService<GreeterService>();
-app.MapGet("/", () => "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
 
-app.Run();
+        app.MapGrpcService<GreeterService>();
+        app.MapGrpcService<Server>();
+
+        app.Run();
+    }
+}
